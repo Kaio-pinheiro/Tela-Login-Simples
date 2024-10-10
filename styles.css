@@ -66,7 +66,7 @@ button {
     height: 45px;
     border-radius: 30px;
     border: none;
-    background-color: #c90e0e; 
+    background-color: #bd2525e5; 
     color: white;
     font-size: 1.2em;
     font-weight: bold;
@@ -75,9 +75,9 @@ button {
 }
 
 button:hover {
-    background-color: #f8e007;
+    background-color: #ff0000;
     transform: scale(1.05); /* Efeito de zoom */
-    color: #c90e0e;
+    color: #ffffff;
 }
 
 p {
@@ -92,7 +92,7 @@ a {
 }
 
 a:hover {
-    color: #c90e0e;
+    color: #0be40ba9;
 }
 
 .checkbox-container {
