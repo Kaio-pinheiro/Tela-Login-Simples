@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="box">
+        <div class="login-box">
+            <h1>Create Account</h1>
+            <img src="/images/addPessoa.png" alt="Logo Hamburguer" class="logo">
+            <form action="/login" method="POST">
+                <div class="input-container">
+                <input type="text" class="nome" name="fullname" placeholder="Nome completo" required>
+                <input type="text" class="cpf" name="cpf" placeholder="CPF" required>
+                <input type="email" class="email" name="email" placeholder="E-mail" required>
+                <input type="text" class="telefone" name="phone" placeholder="Telefone" required>
+                <input type="text" class="endereco" name="address" placeholder="Endereço" required>
+            </br>
+                <p>Create your username and password</p>
+                 <input type="text" class="nome" name="username" placeholder="Username" required>
+                 <input type="password" class="senha" name="password" placeholder="Password" required>
+                </div>
+                 <div class="checkbox-container">
+                    <input type="checkbox" id="showPassword">
+                    <label for="showPassword" >Show Password</label>
+                    
+                </div>
+            </br>
+                 <button>Sign Up</button></br>
+                 
+                 <p>Already have an account? <a href="index.html">Log in</a></p>
+                 
+             </form>
+        </div>     
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
